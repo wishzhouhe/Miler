@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UIWebViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 
@@ -16,7 +18,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *city = @"https://www.baidu.com?q=北京";
+    city = [city stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    NSURL *url = [NSURL URLWithString:city];
+    
+    NSURL *nocity = [NSURL URLWithString:city];
+    
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:nocity];
+    
+    
+    
+    [self.webView loadRequest:urlRequest];
+    
+    
+}
+
+#pragma mark - UIWebViewDelegate 
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    return YES;
+}
+
+- (void)webViewDidStartLoad:(UIWebView *)webView {
+    
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(nullable NSError *)error {
+    
 }
 
 - (void)didReceiveMemoryWarning {
