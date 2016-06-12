@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UIView *firstView;
 
 @end
 
@@ -16,12 +19,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CALayer *sublayer = [CALayer layer];
+    sublayer.frame = CGRectMake(self.firstView.center.x / 2, self.firstView.center.y / 2, 50, 50);
+    sublayer.backgroundColor = [UIColor redColor].CGColor;
+//    [self.firstView.layer addSublayer:sublayer];
+    
+    //contents
+    UIImage *image = [UIImage imageNamed:@"bijini"];
+//    self.firstView.contentMode = UIViewContentModeScaleAspectFill;//view填充模式
+    
+    self.firstView.layer.contentsGravity = @"resizeAspectFill";//layer图形填充模式 与View不同的是 layer使用的是字符串代替枚举
+    
+    self.firstView.layer.contents = (__bridge id)image.CGImage;
+    
+    self.firstView.layer.contentsScale = 1.0f;
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
