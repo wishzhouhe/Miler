@@ -6,16 +6,16 @@
 //  Copyright © 2016年 myzj2004. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DemoVC1.h"
 
 
-@interface ViewController ()
+@interface DemoVC1 ()
 
 @property (weak, nonatomic) IBOutlet UIView *firstView;
 
 @end
 
-@implementation ViewController
+@implementation DemoVC1
 
 - (void)viewDidLoad {
     [super viewDidLoad];

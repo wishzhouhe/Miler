@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		EF6D0F8F1D0D0A9B0047B13D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */; };
+		EF6D0F931D0D2F480047B13D /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F921D0D2F480047B13D /* DemoCell.m */; };
 		EFA275211D01779700229E2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275201D01779700229E2A /* main.m */; };
 		EFA275241D01779700229E2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275231D01779700229E2A /* AppDelegate.m */; };
-		EFA275271D01779700229E2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275261D01779700229E2A /* ViewController.m */; };
+		EFA275271D01779700229E2A /* DemoVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275261D01779700229E2A /* DemoVC1.m */; };
 		EFA2752A1D01779700229E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA275281D01779700229E2A /* Main.storyboard */; };
 		EFA2752C1D01779700229E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA2752B1D01779700229E2A /* Assets.xcassets */; };
 		EFA2752F1D01779700229E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA2752D1D01779700229E2A /* LaunchScreen.storyboard */; };
@@ -38,12 +39,14 @@
 /* Begin PBXFileReference section */
 		EF6D0F8D1D0D0A9B0047B13D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EF6D0F911D0D2F480047B13D /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		EF6D0F921D0D2F480047B13D /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
 		EFA2751C1D01779700229E2A /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA275201D01779700229E2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFA275221D01779700229E2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFA275231D01779700229E2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EFA275251D01779700229E2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFA275261D01779700229E2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFA275251D01779700229E2A /* DemoVC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoVC1.h; sourceTree = "<group>"; };
+		EFA275261D01779700229E2A /* DemoVC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoVC1.m; sourceTree = "<group>"; };
 		EFA275291D01779700229E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFA2752B1D01779700229E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA2752E1D01779700229E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF6D0F901D0D2F320047B13D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EF6D0F911D0D2F480047B13D /* DemoCell.h */,
+				EF6D0F921D0D2F480047B13D /* DemoCell.m */,
+			);
+			path = Cell;
+			sourceTree = SOURCE_ROOT;
+		};
 		EFA275131D01779700229E2A = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +116,11 @@
 		EFA2751E1D01779700229E2A /* CoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EF6D0F901D0D2F320047B13D /* Cell */,
 				EFA275221D01779700229E2A /* AppDelegate.h */,
 				EFA275231D01779700229E2A /* AppDelegate.m */,
-				EFA275251D01779700229E2A /* ViewController.h */,
-				EFA275261D01779700229E2A /* ViewController.m */,
+				EFA275251D01779700229E2A /* DemoVC1.h */,
+				EFA275261D01779700229E2A /* DemoVC1.m */,
 				EFA275281D01779700229E2A /* Main.storyboard */,
 				EFA2752B1D01779700229E2A /* Assets.xcassets */,
 				EFA2752D1D01779700229E2A /* LaunchScreen.storyboard */,
@@ -275,7 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA275271D01779700229E2A /* ViewController.m in Sources */,
+				EFA275271D01779700229E2A /* DemoVC1.m in Sources */,
+				EF6D0F931D0D2F480047B13D /* DemoCell.m in Sources */,
 				EFA275241D01779700229E2A /* AppDelegate.m in Sources */,
 				EFA275211D01779700229E2A /* main.m in Sources */,
 				EF6D0F8F1D0D0A9B0047B13D /* TableViewController.m in Sources */,

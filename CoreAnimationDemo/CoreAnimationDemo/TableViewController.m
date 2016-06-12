@@ -9,9 +9,14 @@
 
 
 #import "TableViewController.h"
+#import "DemoCell.h"
 
+NSString * const demo1 = @"coreAnimation";
 
 @interface TableViewController ()
+
+@property (nonatomic,strong) NSArray *contentArray;
+
 
 @end
 
@@ -20,8 +25,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     
+//    self.view.backgroundColor = [UIColor whiteColor];
+    self.contentArray = @[demo1];
 }
 
 #pragma mark - Table view data source
@@ -30,57 +36,36 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+     return self.contentArray.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return nil;
+    DemoCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    cell.title.text = [NSString stringWithFormat:@"DemoVC -- %@",@(indexPath.row + 1)];
+    cell.descriptionTitle.text = self.contentArray[indexPath.row];
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 70;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *demoString = [NSString stringWithFormat:@"DemoVC%@",@(indexPath.row + 1)];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *viewVC = [storyboard instantiateViewControllerWithIdentifier:demoString];
+    [self.navigationController pushViewController:viewVC animated:YES];
 }
 
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
+#pragma mark -- setter
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+- (NSArray *)contentArray {
+    if (!_contentArray) {
+        _contentArray = [NSArray array];
+    }
+    return _contentArray;
 }
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
