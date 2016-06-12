@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF6D0F8F1D0D0A9B0047B13D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */; };
 		EFA275211D01779700229E2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275201D01779700229E2A /* main.m */; };
 		EFA275241D01779700229E2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275231D01779700229E2A /* AppDelegate.m */; };
 		EFA275271D01779700229E2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275261D01779700229E2A /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF6D0F8D1D0D0A9B0047B13D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		EFA2751C1D01779700229E2A /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA275201D01779700229E2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFA275221D01779700229E2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				EFA2752D1D01779700229E2A /* LaunchScreen.storyboard */,
 				EFA275301D01779700229E2A /* Info.plist */,
 				EFA2751F1D01779700229E2A /* Supporting Files */,
+				EF6D0F8D1D0D0A9B0047B13D /* TableViewController.h */,
+				EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */,
 			);
 			path = CoreAnimationDemo;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				EFA275271D01779700229E2A /* ViewController.m in Sources */,
 				EFA275241D01779700229E2A /* AppDelegate.m in Sources */,
 				EFA275211D01779700229E2A /* main.m in Sources */,
+				EF6D0F8F1D0D0A9B0047B13D /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				EFA2754B1D01779700229E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFA2754C1D01779700229E2A /* Build configuration list for PBXNativeTarget "CoreAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				EFA2754E1D01779700229E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFA2754F1D01779700229E2A /* Build configuration list for PBXNativeTarget "CoreAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				EFA275511D01779700229E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
