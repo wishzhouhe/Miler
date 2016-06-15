@@ -33,7 +33,10 @@
     
     self.firstView.layer.contents = (__bridge id)image.CGImage;
     
-    self.firstView.layer.contentsScale = 1.0f;
+    self.firstView.layer.contentsScale = 5.0f;
+    
+    
+    
     
 }
 

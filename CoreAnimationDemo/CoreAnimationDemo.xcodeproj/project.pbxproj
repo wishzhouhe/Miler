@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EF6D0F8F1D0D0A9B0047B13D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */; };
 		EF6D0F931D0D2F480047B13D /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F921D0D2F480047B13D /* DemoCell.m */; };
+		EF6D0F971D0E838E0047B13D /* DemoVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F961D0E838E0047B13D /* DemoVC2.m */; };
 		EFA275211D01779700229E2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275201D01779700229E2A /* main.m */; };
 		EFA275241D01779700229E2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275231D01779700229E2A /* AppDelegate.m */; };
 		EFA275271D01779700229E2A /* DemoVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA275261D01779700229E2A /* DemoVC1.m */; };
@@ -41,6 +42,8 @@
 		EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		EF6D0F911D0D2F480047B13D /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
 		EF6D0F921D0D2F480047B13D /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		EF6D0F951D0E838E0047B13D /* DemoVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC2.h; sourceTree = "<group>"; };
+		EF6D0F961D0E838E0047B13D /* DemoVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC2.m; sourceTree = "<group>"; };
 		EFA2751C1D01779700229E2A /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA275201D01779700229E2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFA275221D01779700229E2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +96,15 @@
 			path = Cell;
 			sourceTree = SOURCE_ROOT;
 		};
+		EF6D0F941D0E83750047B13D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF6D0F951D0E838E0047B13D /* DemoVC2.h */,
+				EF6D0F961D0E838E0047B13D /* DemoVC2.m */,
+			);
+			path = ViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
 		EFA275131D01779700229E2A = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +128,7 @@
 		EFA2751E1D01779700229E2A /* CoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EF6D0F941D0E83750047B13D /* ViewControllers */,
 				EF6D0F901D0D2F320047B13D /* Cell */,
 				EFA275221D01779700229E2A /* AppDelegate.h */,
 				EFA275231D01779700229E2A /* AppDelegate.m */,
@@ -290,6 +303,7 @@
 			files = (
 				EFA275271D01779700229E2A /* DemoVC1.m in Sources */,
 				EF6D0F931D0D2F480047B13D /* DemoCell.m in Sources */,
+				EF6D0F971D0E838E0047B13D /* DemoVC2.m in Sources */,
 				EFA275241D01779700229E2A /* AppDelegate.m in Sources */,
 				EFA275211D01779700229E2A /* main.m in Sources */,
 				EF6D0F8F1D0D0A9B0047B13D /* TableViewController.m in Sources */,

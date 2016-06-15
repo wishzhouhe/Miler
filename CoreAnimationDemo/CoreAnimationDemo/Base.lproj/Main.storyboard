@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--动画学习-->
         <scene sceneID="Fdu-WS-je1">
             <objects>
                 <tableViewController id="a9S-02-lUv" customClass="TableViewController" sceneMemberID="viewController">
@@ -51,7 +51,11 @@
                             <outlet property="delegate" destination="a9S-02-lUv" id="gVz-45-O5e"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="BcO-7K-Xni"/>
+                    <navigationItem key="navigationItem" title="动画学习" id="BcO-7K-Xni"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="push" id="wg3-qG-EFt"/>
+                        <segue destination="jyt-LW-3TC" kind="push" id="gsk-Zx-BXO"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vDt-lz-vKD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,7 +77,7 @@
             </objects>
             <point key="canvasLocation" x="-1481" y="269"/>
         </scene>
-        <!--DemoVC1-->
+        <!--coreAnimation-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="DemoVC1" id="BYZ-38-t0r" customClass="DemoVC1" sceneMemberID="viewController">
@@ -100,13 +104,33 @@
                             <constraint firstItem="HKC-ok-EkN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ySO-XR-Xdf"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="coreAnimation" id="yKy-eh-Qhy"/>
                     <connections>
                         <outlet property="firstView" destination="HKC-ok-EkN" id="Mle-1P-NVt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="56" y="171"/>
+            <point key="canvasLocation" x="-26" y="-181"/>
+        </scene>
+        <!--Costom Drawing-->
+        <scene sceneID="n2q-0B-Sv0">
+            <objects>
+                <viewController storyboardIdentifier="DemoVC2" id="jyt-LW-3TC" customClass="DemoVC2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w60-vG-Ges"/>
+                        <viewControllerLayoutGuide type="bottom" id="TPg-K2-K6E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x8k-kN-YNg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Costom Drawing" id="hY8-4x-LoF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WSi-xC-TTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-50" y="473"/>
         </scene>
     </scenes>
 </document>

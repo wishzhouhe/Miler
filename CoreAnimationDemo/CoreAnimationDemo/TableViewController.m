@@ -12,6 +12,7 @@
 #import "DemoCell.h"
 
 NSString * const demo1 = @"coreAnimation";
+NSString * const demo2 = @"costom Drawing";
 
 @interface TableViewController ()
 
@@ -27,7 +28,8 @@ NSString * const demo1 = @"coreAnimation";
     [super viewDidLoad];
     
 //    self.view.backgroundColor = [UIColor whiteColor];
-    self.contentArray = @[demo1];
+    self.navigationController.title = @"动画学习";
+    self.contentArray = @[demo1,demo2];
 }
 
 #pragma mark - Table view data source
