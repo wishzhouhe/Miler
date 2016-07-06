@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF4CA1961D1140E60029E3A0 /* DemoVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CA1951D1140E60029E3A0 /* DemoVC3.m */; };
+		EF4CA19C1D1296EE0029E3A0 /* DemoVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CA19B1D1296EE0029E3A0 /* DemoVC4.m */; };
+		EF4CA19F1D129CCB0029E3A0 /* DemoVC5.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CA19E1D129CCB0029E3A0 /* DemoVC5.m */; };
+		EF4CA1A21D13D7390029E3A0 /* DemoVC6.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CA1A11D13D7390029E3A0 /* DemoVC6.m */; };
 		EF6D0F8F1D0D0A9B0047B13D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */; };
 		EF6D0F931D0D2F480047B13D /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F921D0D2F480047B13D /* DemoCell.m */; };
 		EF6D0F971D0E838E0047B13D /* DemoVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D0F961D0E838E0047B13D /* DemoVC2.m */; };
@@ -38,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF4CA1941D1140E60029E3A0 /* DemoVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC3.h; sourceTree = "<group>"; };
+		EF4CA1951D1140E60029E3A0 /* DemoVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC3.m; sourceTree = "<group>"; };
+		EF4CA19A1D1296EE0029E3A0 /* DemoVC4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC4.h; sourceTree = "<group>"; };
+		EF4CA19B1D1296EE0029E3A0 /* DemoVC4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC4.m; sourceTree = "<group>"; };
+		EF4CA19D1D129CCB0029E3A0 /* DemoVC5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC5.h; sourceTree = "<group>"; };
+		EF4CA19E1D129CCB0029E3A0 /* DemoVC5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC5.m; sourceTree = "<group>"; };
+		EF4CA1A01D13D7390029E3A0 /* DemoVC6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC6.h; sourceTree = "<group>"; };
+		EF4CA1A11D13D7390029E3A0 /* DemoVC6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC6.m; sourceTree = "<group>"; };
 		EF6D0F8D1D0D0A9B0047B13D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		EF6D0F8E1D0D0A9B0047B13D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		EF6D0F911D0D2F480047B13D /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
@@ -101,6 +113,14 @@
 			children = (
 				EF6D0F951D0E838E0047B13D /* DemoVC2.h */,
 				EF6D0F961D0E838E0047B13D /* DemoVC2.m */,
+				EF4CA1941D1140E60029E3A0 /* DemoVC3.h */,
+				EF4CA1951D1140E60029E3A0 /* DemoVC3.m */,
+				EF4CA19A1D1296EE0029E3A0 /* DemoVC4.h */,
+				EF4CA19B1D1296EE0029E3A0 /* DemoVC4.m */,
+				EF4CA19D1D129CCB0029E3A0 /* DemoVC5.h */,
+				EF4CA19E1D129CCB0029E3A0 /* DemoVC5.m */,
+				EF4CA1A01D13D7390029E3A0 /* DemoVC6.h */,
+				EF4CA1A11D13D7390029E3A0 /* DemoVC6.m */,
 			);
 			path = ViewControllers;
 			sourceTree = SOURCE_ROOT;
@@ -305,7 +325,11 @@
 				EF6D0F931D0D2F480047B13D /* DemoCell.m in Sources */,
 				EF6D0F971D0E838E0047B13D /* DemoVC2.m in Sources */,
 				EFA275241D01779700229E2A /* AppDelegate.m in Sources */,
+				EF4CA1A21D13D7390029E3A0 /* DemoVC6.m in Sources */,
+				EF4CA1961D1140E60029E3A0 /* DemoVC3.m in Sources */,
+				EF4CA19F1D129CCB0029E3A0 /* DemoVC5.m in Sources */,
 				EFA275211D01779700229E2A /* main.m in Sources */,
+				EF4CA19C1D1296EE0029E3A0 /* DemoVC4.m in Sources */,
 				EF6D0F8F1D0D0A9B0047B13D /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

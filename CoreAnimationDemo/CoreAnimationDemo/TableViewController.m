@@ -13,6 +13,11 @@
 
 NSString * const demo1 = @"coreAnimation";
 NSString * const demo2 = @"costom Drawing";
+NSString * const demo3 = @"anchorpoint";
+NSString * const demo4 = @"CAShapeLayer";
+NSString * const demo5 = @"CATextLayer";
+NSString * const demo6 = @"layers";
+
 
 @interface TableViewController ()
 
@@ -29,7 +34,7 @@ NSString * const demo2 = @"costom Drawing";
     
 //    self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.title = @"动画学习";
-    self.contentArray = @[demo1,demo2];
+    self.contentArray = @[demo1,demo2,demo3,demo4,demo5,demo6];
 }
 
 #pragma mark - Table view data source
