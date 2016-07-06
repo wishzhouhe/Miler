@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2FEFBA1D2CCEB0008623D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2FEFB91D2CCEB0008623D9 /* main.m */; };
+		EF2FEFBD1D2CCEB0008623D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2FEFBC1D2CCEB0008623D9 /* AppDelegate.m */; };
+		EF2FEFC01D2CCEB0008623D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2FEFBF1D2CCEB0008623D9 /* ViewController.m */; };
+		EF2FEFC31D2CCEB0008623D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2FEFC11D2CCEB0008623D9 /* Main.storyboard */; };
+		EF2FEFC51D2CCEB0008623D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2FEFC41D2CCEB0008623D9 /* Assets.xcassets */; };
+		EF2FEFC81D2CCEB0008623D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2FEFC61D2CCEB0008623D9 /* LaunchScreen.storyboard */; };
+		EF2FEFD31D2CCEB0008623D9 /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2FEFD21D2CCEB0008623D9 /* GCDTests.m */; };
+		EF2FEFDE1D2CCEB0008623D9 /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2FEFDD1D2CCEB0008623D9 /* GCDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF2FEFCF1D2CCEB0008623D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2FEFAD1D2CCEAF008623D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2FEFB41D2CCEAF008623D9;
+			remoteInfo = GCD;
+		};
+		EF2FEFDA1D2CCEB0008623D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2FEFAD1D2CCEAF008623D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2FEFB41D2CCEAF008623D9;
+			remoteInfo = GCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2FEFB51D2CCEAF008623D9 /* GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2FEFB91D2CCEB0008623D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF2FEFBB1D2CCEB0008623D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF2FEFBC1D2CCEB0008623D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF2FEFBE1D2CCEB0008623D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF2FEFBF1D2CCEB0008623D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF2FEFC21D2CCEB0008623D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2FEFC41D2CCEB0008623D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2FEFC71D2CCEB0008623D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2FEFC91D2CCEB0008623D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2FEFCE1D2CCEB0008623D9 /* GCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2FEFD21D2CCEB0008623D9 /* GCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTests.m; sourceTree = "<group>"; };
+		EF2FEFD41D2CCEB0008623D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2FEFD91D2CCEB0008623D9 /* GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2FEFDD1D2CCEB0008623D9 /* GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUITests.m; sourceTree = "<group>"; };
+		EF2FEFDF1D2CCEB0008623D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2FEFB21D2CCEAF008623D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2FEFCB1D2CCEB0008623D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2FEFD61D2CCEB0008623D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2FEFAC1D2CCEAF008623D9 = {
+			isa = PBXGroup;
+			children = (
+				EF2FEFB71D2CCEB0008623D9 /* GCD */,
+				EF2FEFD11D2CCEB0008623D9 /* GCDTests */,
+				EF2FEFDC1D2CCEB0008623D9 /* GCDUITests */,
+				EF2FEFB61D2CCEAF008623D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2FEFB61D2CCEAF008623D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2FEFB51D2CCEAF008623D9 /* GCD.app */,
+				EF2FEFCE1D2CCEB0008623D9 /* GCDTests.xctest */,
+				EF2FEFD91D2CCEB0008623D9 /* GCDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2FEFB71D2CCEB0008623D9 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				EF2FEFBB1D2CCEB0008623D9 /* AppDelegate.h */,
+				EF2FEFBC1D2CCEB0008623D9 /* AppDelegate.m */,
+				EF2FEFBE1D2CCEB0008623D9 /* ViewController.h */,
+				EF2FEFBF1D2CCEB0008623D9 /* ViewController.m */,
+				EF2FEFC11D2CCEB0008623D9 /* Main.storyboard */,
+				EF2FEFC41D2CCEB0008623D9 /* Assets.xcassets */,
+				EF2FEFC61D2CCEB0008623D9 /* LaunchScreen.storyboard */,
+				EF2FEFC91D2CCEB0008623D9 /* Info.plist */,
+				EF2FEFB81D2CCEB0008623D9 /* Supporting Files */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		EF2FEFB81D2CCEB0008623D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF2FEFB91D2CCEB0008623D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF2FEFD11D2CCEB0008623D9 /* GCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2FEFD21D2CCEB0008623D9 /* GCDTests.m */,
+				EF2FEFD41D2CCEB0008623D9 /* Info.plist */,
+			);
+			path = GCDTests;
+			sourceTree = "<group>";
+		};
+		EF2FEFDC1D2CCEB0008623D9 /* GCDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2FEFDD1D2CCEB0008623D9 /* GCDUITests.m */,
+				EF2FEFDF1D2CCEB0008623D9 /* Info.plist */,
+			);
+			path = GCDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2FEFB41D2CCEAF008623D9 /* GCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2FEFE21D2CCEB0008623D9 /* Build configuration list for PBXNativeTarget "GCD" */;
+			buildPhases = (
+				EF2FEFB11D2CCEAF008623D9 /* Sources */,
+				EF2FEFB21D2CCEAF008623D9 /* Frameworks */,
+				EF2FEFB31D2CCEAF008623D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCD;
+			productName = GCD;
+			productReference = EF2FEFB51D2CCEAF008623D9 /* GCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF2FEFCD1D2CCEB0008623D9 /* GCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2FEFE51D2CCEB0008623D9 /* Build configuration list for PBXNativeTarget "GCDTests" */;
+			buildPhases = (
+				EF2FEFCA1D2CCEB0008623D9 /* Sources */,
+				EF2FEFCB1D2CCEB0008623D9 /* Frameworks */,
+				EF2FEFCC1D2CCEB0008623D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2FEFD01D2CCEB0008623D9 /* PBXTargetDependency */,
+			);
+			name = GCDTests;
+			productName = GCDTests;
+			productReference = EF2FEFCE1D2CCEB0008623D9 /* GCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF2FEFD81D2CCEB0008623D9 /* GCDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2FEFE81D2CCEB0008623D9 /* Build configuration list for PBXNativeTarget "GCDUITests" */;
+			buildPhases = (
+				EF2FEFD51D2CCEB0008623D9 /* Sources */,
+				EF2FEFD61D2CCEB0008623D9 /* Frameworks */,
+				EF2FEFD71D2CCEB0008623D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2FEFDB1D2CCEB0008623D9 /* PBXTargetDependency */,
+			);
+			name = GCDUITests;
+			productName = GCDUITests;
+			productReference = EF2FEFD91D2CCEB0008623D9 /* GCDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2FEFAD1D2CCEAF008623D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = myzj2004;
+				TargetAttributes = {
+					EF2FEFB41D2CCEAF008623D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF2FEFCD1D2CCEB0008623D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF2FEFB41D2CCEAF008623D9;
+					};
+					EF2FEFD81D2CCEB0008623D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF2FEFB41D2CCEAF008623D9;
+					};
+				};
+			};
+			buildConfigurationList = EF2FEFB01D2CCEAF008623D9 /* Build configuration list for PBXProject "GCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2FEFAC1D2CCEAF008623D9;
+			productRefGroup = EF2FEFB61D2CCEAF008623D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2FEFB41D2CCEAF008623D9 /* GCD */,
+				EF2FEFCD1D2CCEB0008623D9 /* GCDTests */,
+				EF2FEFD81D2CCEB0008623D9 /* GCDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2FEFB31D2CCEAF008623D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2FEFC81D2CCEB0008623D9 /* LaunchScreen.storyboard in Resources */,
+				EF2FEFC51D2CCEB0008623D9 /* Assets.xcassets in Resources */,
+				EF2FEFC31D2CCEB0008623D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2FEFCC1D2CCEB0008623D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2FEFD71D2CCEB0008623D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2FEFB11D2CCEAF008623D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2FEFC01D2CCEB0008623D9 /* ViewController.m in Sources */,
+				EF2FEFBD1D2CCEB0008623D9 /* AppDelegate.m in Sources */,
+				EF2FEFBA1D2CCEB0008623D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2FEFCA1D2CCEB0008623D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2FEFD31D2CCEB0008623D9 /* GCDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2FEFD51D2CCEB0008623D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2FEFDE1D2CCEB0008623D9 /* GCDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF2FEFD01D2CCEB0008623D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2FEFB41D2CCEAF008623D9 /* GCD */;
+			targetProxy = EF2FEFCF1D2CCEB0008623D9 /* PBXContainerItemProxy */;
+		};
+		EF2FEFDB1D2CCEB0008623D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2FEFB41D2CCEAF008623D9 /* GCD */;
+			targetProxy = EF2FEFDA1D2CCEB0008623D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF2FEFC11D2CCEB0008623D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2FEFC21D2CCEB0008623D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF2FEFC61D2CCEB0008623D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2FEFC71D2CCEB0008623D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2FEFE01D2CCEB0008623D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2FEFE11D2CCEB0008623D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2FEFE31D2CCEB0008623D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GCD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.GCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF2FEFE41D2CCEB0008623D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GCD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.GCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF2FEFE61D2CCEB0008623D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GCDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.GCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCD.app/GCD";
+			};
+			name = Debug;
+		};
+		EF2FEFE71D2CCEB0008623D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GCDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.GCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCD.app/GCD";
+			};
+			name = Release;
+		};
+		EF2FEFE91D2CCEB0008623D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GCDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.GCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GCD;
+			};
+			name = Debug;
+		};
+		EF2FEFEA1D2CCEB0008623D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GCDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.GCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GCD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2FEFB01D2CCEAF008623D9 /* Build configuration list for PBXProject "GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2FEFE01D2CCEB0008623D9 /* Debug */,
+				EF2FEFE11D2CCEB0008623D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2FEFE21D2CCEB0008623D9 /* Build configuration list for PBXNativeTarget "GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2FEFE31D2CCEB0008623D9 /* Debug */,
+				EF2FEFE41D2CCEB0008623D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF2FEFE51D2CCEB0008623D9 /* Build configuration list for PBXNativeTarget "GCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2FEFE61D2CCEB0008623D9 /* Debug */,
+				EF2FEFE71D2CCEB0008623D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF2FEFE81D2CCEB0008623D9 /* Build configuration list for PBXNativeTarget "GCDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2FEFE91D2CCEB0008623D9 /* Debug */,
+				EF2FEFEA1D2CCEB0008623D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2FEFAD1D2CCEAF008623D9 /* Project object */;
+}
