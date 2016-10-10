@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF387ED51DA9DB14004F3603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF387ED41DA9DB14004F3603 /* main.m */; };
+		EF387ED81DA9DB14004F3603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF387ED71DA9DB14004F3603 /* AppDelegate.m */; };
+		EF387EDB1DA9DB14004F3603 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF387EDA1DA9DB14004F3603 /* ViewController.m */; };
+		EF387EDE1DA9DB14004F3603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF387EDC1DA9DB14004F3603 /* Main.storyboard */; };
+		EF387EE01DA9DB14004F3603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF387EDF1DA9DB14004F3603 /* Assets.xcassets */; };
+		EF387EE31DA9DB14004F3603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF387EE11DA9DB14004F3603 /* LaunchScreen.storyboard */; };
+		EF387EEE1DA9DB14004F3603 /* autolayoutAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF387EED1DA9DB14004F3603 /* autolayoutAnimationDemoTests.m */; };
+		EF387EF91DA9DB14004F3603 /* autolayoutAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF387EF81DA9DB14004F3603 /* autolayoutAnimationDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF387EEA1DA9DB14004F3603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF387EC81DA9DB14004F3603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF387ECF1DA9DB14004F3603;
+			remoteInfo = autolayoutAnimationDemo;
+		};
+		EF387EF51DA9DB14004F3603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF387EC81DA9DB14004F3603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF387ECF1DA9DB14004F3603;
+			remoteInfo = autolayoutAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF387ED01DA9DB14004F3603 /* autolayoutAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autolayoutAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF387ED41DA9DB14004F3603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF387ED61DA9DB14004F3603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF387ED71DA9DB14004F3603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF387ED91DA9DB14004F3603 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF387EDA1DA9DB14004F3603 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF387EDD1DA9DB14004F3603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF387EDF1DA9DB14004F3603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF387EE21DA9DB14004F3603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF387EE41DA9DB14004F3603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF387EE91DA9DB14004F3603 /* autolayoutAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autolayoutAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF387EED1DA9DB14004F3603 /* autolayoutAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autolayoutAnimationDemoTests.m; sourceTree = "<group>"; };
+		EF387EEF1DA9DB14004F3603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF387EF41DA9DB14004F3603 /* autolayoutAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autolayoutAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF387EF81DA9DB14004F3603 /* autolayoutAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autolayoutAnimationDemoUITests.m; sourceTree = "<group>"; };
+		EF387EFA1DA9DB14004F3603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF387ECD1DA9DB14004F3603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF387EE61DA9DB14004F3603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF387EF11DA9DB14004F3603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF387EC71DA9DB14004F3603 = {
+			isa = PBXGroup;
+			children = (
+				EF387ED21DA9DB14004F3603 /* autolayoutAnimationDemo */,
+				EF387EEC1DA9DB14004F3603 /* autolayoutAnimationDemoTests */,
+				EF387EF71DA9DB14004F3603 /* autolayoutAnimationDemoUITests */,
+				EF387ED11DA9DB14004F3603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF387ED11DA9DB14004F3603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF387ED01DA9DB14004F3603 /* autolayoutAnimationDemo.app */,
+				EF387EE91DA9DB14004F3603 /* autolayoutAnimationDemoTests.xctest */,
+				EF387EF41DA9DB14004F3603 /* autolayoutAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF387ED21DA9DB14004F3603 /* autolayoutAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF387ED61DA9DB14004F3603 /* AppDelegate.h */,
+				EF387ED71DA9DB14004F3603 /* AppDelegate.m */,
+				EF387ED91DA9DB14004F3603 /* ViewController.h */,
+				EF387EDA1DA9DB14004F3603 /* ViewController.m */,
+				EF387EDC1DA9DB14004F3603 /* Main.storyboard */,
+				EF387EDF1DA9DB14004F3603 /* Assets.xcassets */,
+				EF387EE11DA9DB14004F3603 /* LaunchScreen.storyboard */,
+				EF387EE41DA9DB14004F3603 /* Info.plist */,
+				EF387ED31DA9DB14004F3603 /* Supporting Files */,
+			);
+			path = autolayoutAnimationDemo;
+			sourceTree = "<group>";
+		};
+		EF387ED31DA9DB14004F3603 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF387ED41DA9DB14004F3603 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF387EEC1DA9DB14004F3603 /* autolayoutAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF387EED1DA9DB14004F3603 /* autolayoutAnimationDemoTests.m */,
+				EF387EEF1DA9DB14004F3603 /* Info.plist */,
+			);
+			path = autolayoutAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		EF387EF71DA9DB14004F3603 /* autolayoutAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF387EF81DA9DB14004F3603 /* autolayoutAnimationDemoUITests.m */,
+				EF387EFA1DA9DB14004F3603 /* Info.plist */,
+			);
+			path = autolayoutAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF387ECF1DA9DB14004F3603 /* autolayoutAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF387EFD1DA9DB14004F3603 /* Build configuration list for PBXNativeTarget "autolayoutAnimationDemo" */;
+			buildPhases = (
+				EF387ECC1DA9DB14004F3603 /* Sources */,
+				EF387ECD1DA9DB14004F3603 /* Frameworks */,
+				EF387ECE1DA9DB14004F3603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autolayoutAnimationDemo;
+			productName = autolayoutAnimationDemo;
+			productReference = EF387ED01DA9DB14004F3603 /* autolayoutAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF387EE81DA9DB14004F3603 /* autolayoutAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF387F001DA9DB14004F3603 /* Build configuration list for PBXNativeTarget "autolayoutAnimationDemoTests" */;
+			buildPhases = (
+				EF387EE51DA9DB14004F3603 /* Sources */,
+				EF387EE61DA9DB14004F3603 /* Frameworks */,
+				EF387EE71DA9DB14004F3603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF387EEB1DA9DB14004F3603 /* PBXTargetDependency */,
+			);
+			name = autolayoutAnimationDemoTests;
+			productName = autolayoutAnimationDemoTests;
+			productReference = EF387EE91DA9DB14004F3603 /* autolayoutAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF387EF31DA9DB14004F3603 /* autolayoutAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF387F031DA9DB14004F3603 /* Build configuration list for PBXNativeTarget "autolayoutAnimationDemoUITests" */;
+			buildPhases = (
+				EF387EF01DA9DB14004F3603 /* Sources */,
+				EF387EF11DA9DB14004F3603 /* Frameworks */,
+				EF387EF21DA9DB14004F3603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF387EF61DA9DB14004F3603 /* PBXTargetDependency */,
+			);
+			name = autolayoutAnimationDemoUITests;
+			productName = autolayoutAnimationDemoUITests;
+			productReference = EF387EF41DA9DB14004F3603 /* autolayoutAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF387EC81DA9DB14004F3603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = myzj2004;
+				TargetAttributes = {
+					EF387ECF1DA9DB14004F3603 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+					};
+					EF387EE81DA9DB14004F3603 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF387ECF1DA9DB14004F3603;
+					};
+					EF387EF31DA9DB14004F3603 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF387ECF1DA9DB14004F3603;
+					};
+				};
+			};
+			buildConfigurationList = EF387ECB1DA9DB14004F3603 /* Build configuration list for PBXProject "autolayoutAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF387EC71DA9DB14004F3603;
+			productRefGroup = EF387ED11DA9DB14004F3603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF387ECF1DA9DB14004F3603 /* autolayoutAnimationDemo */,
+				EF387EE81DA9DB14004F3603 /* autolayoutAnimationDemoTests */,
+				EF387EF31DA9DB14004F3603 /* autolayoutAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF387ECE1DA9DB14004F3603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF387EE31DA9DB14004F3603 /* LaunchScreen.storyboard in Resources */,
+				EF387EE01DA9DB14004F3603 /* Assets.xcassets in Resources */,
+				EF387EDE1DA9DB14004F3603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF387EE71DA9DB14004F3603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF387EF21DA9DB14004F3603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF387ECC1DA9DB14004F3603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF387EDB1DA9DB14004F3603 /* ViewController.m in Sources */,
+				EF387ED81DA9DB14004F3603 /* AppDelegate.m in Sources */,
+				EF387ED51DA9DB14004F3603 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF387EE51DA9DB14004F3603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF387EEE1DA9DB14004F3603 /* autolayoutAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF387EF01DA9DB14004F3603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF387EF91DA9DB14004F3603 /* autolayoutAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF387EEB1DA9DB14004F3603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF387ECF1DA9DB14004F3603 /* autolayoutAnimationDemo */;
+			targetProxy = EF387EEA1DA9DB14004F3603 /* PBXContainerItemProxy */;
+		};
+		EF387EF61DA9DB14004F3603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF387ECF1DA9DB14004F3603 /* autolayoutAnimationDemo */;
+			targetProxy = EF387EF51DA9DB14004F3603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF387EDC1DA9DB14004F3603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF387EDD1DA9DB14004F3603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF387EE11DA9DB14004F3603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF387EE21DA9DB14004F3603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF387EFB1DA9DB14004F3603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF387EFC1DA9DB14004F3603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF387EFE1DA9DB14004F3603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = autolayoutAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.autolayoutAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF387EFF1DA9DB14004F3603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = autolayoutAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.autolayoutAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF387F011DA9DB14004F3603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = autolayoutAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.autolayoutAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autolayoutAnimationDemo.app/autolayoutAnimationDemo";
+			};
+			name = Debug;
+		};
+		EF387F021DA9DB14004F3603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = autolayoutAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.autolayoutAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autolayoutAnimationDemo.app/autolayoutAnimationDemo";
+			};
+			name = Release;
+		};
+		EF387F041DA9DB14004F3603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = autolayoutAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.autolayoutAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = autolayoutAnimationDemo;
+			};
+			name = Debug;
+		};
+		EF387F051DA9DB14004F3603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = autolayoutAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouhe.autolayoutAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = autolayoutAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF387ECB1DA9DB14004F3603 /* Build configuration list for PBXProject "autolayoutAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF387EFB1DA9DB14004F3603 /* Debug */,
+				EF387EFC1DA9DB14004F3603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF387EFD1DA9DB14004F3603 /* Build configuration list for PBXNativeTarget "autolayoutAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF387EFE1DA9DB14004F3603 /* Debug */,
+				EF387EFF1DA9DB14004F3603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF387F001DA9DB14004F3603 /* Build configuration list for PBXNativeTarget "autolayoutAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF387F011DA9DB14004F3603 /* Debug */,
+				EF387F021DA9DB14004F3603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF387F031DA9DB14004F3603 /* Build configuration list for PBXNativeTarget "autolayoutAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF387F041DA9DB14004F3603 /* Debug */,
+				EF387F051DA9DB14004F3603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF387EC81DA9DB14004F3603 /* Project object */;
+}
