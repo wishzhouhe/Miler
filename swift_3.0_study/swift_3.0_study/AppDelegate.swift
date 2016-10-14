@@ -8,6 +8,8 @@
 
 import UIKit
 
+//程序入口之前是main方法
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
