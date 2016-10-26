@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB2049F1DC0502E00CE0A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2049E1DC0502E00CE0A5A /* AppDelegate.swift */; };
+		EFB204A11DC0502E00CE0A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB204A01DC0502E00CE0A5A /* ViewController.swift */; };
+		EFB204A41DC0502E00CE0A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB204A21DC0502E00CE0A5A /* Main.storyboard */; };
+		EFB204A61DC0502E00CE0A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB204A51DC0502E00CE0A5A /* Assets.xcassets */; };
+		EFB204A91DC0502E00CE0A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB204A71DC0502E00CE0A5A /* LaunchScreen.storyboard */; };
+		EFB204B41DC0502F00CE0A5A /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB204B31DC0502F00CE0A5A /* _____Tests.swift */; };
+		EFB204BF1DC0502F00CE0A5A /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB204BE1DC0502F00CE0A5A /* _____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB204B01DC0502E00CE0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB204931DC0502E00CE0A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB2049A1DC0502E00CE0A5A;
+			remoteInfo = "加法计算器";
+		};
+		EFB204BB1DC0502F00CE0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB204931DC0502E00CE0A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB2049A1DC0502E00CE0A5A;
+			remoteInfo = "加法计算器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB2049B1DC0502E00CE0A5A /* 加法计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加法计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB2049E1DC0502E00CE0A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFB204A01DC0502E00CE0A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB204A31DC0502E00CE0A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB204A51DC0502E00CE0A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB204A81DC0502E00CE0A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB204AA1DC0502E00CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB204AF1DC0502E00CE0A5A /* 加法计算器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加法计算器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB204B31DC0502F00CE0A5A /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		EFB204B51DC0502F00CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB204BA1DC0502F00CE0A5A /* 加法计算器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加法计算器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB204BE1DC0502F00CE0A5A /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		EFB204C01DC0502F00CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB204981DC0502E00CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB204AC1DC0502E00CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB204B71DC0502F00CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB204921DC0502E00CE0A5A = {
+			isa = PBXGroup;
+			children = (
+				EFB2049D1DC0502E00CE0A5A /* 加法计算器 */,
+				EFB204B21DC0502F00CE0A5A /* 加法计算器Tests */,
+				EFB204BD1DC0502F00CE0A5A /* 加法计算器UITests */,
+				EFB2049C1DC0502E00CE0A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB2049C1DC0502E00CE0A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2049B1DC0502E00CE0A5A /* 加法计算器.app */,
+				EFB204AF1DC0502E00CE0A5A /* 加法计算器Tests.xctest */,
+				EFB204BA1DC0502F00CE0A5A /* 加法计算器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB2049D1DC0502E00CE0A5A /* 加法计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2049E1DC0502E00CE0A5A /* AppDelegate.swift */,
+				EFB204A01DC0502E00CE0A5A /* ViewController.swift */,
+				EFB204A21DC0502E00CE0A5A /* Main.storyboard */,
+				EFB204A51DC0502E00CE0A5A /* Assets.xcassets */,
+				EFB204A71DC0502E00CE0A5A /* LaunchScreen.storyboard */,
+				EFB204AA1DC0502E00CE0A5A /* Info.plist */,
+			);
+			path = "加法计算器";
+			sourceTree = "<group>";
+		};
+		EFB204B21DC0502F00CE0A5A /* 加法计算器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB204B31DC0502F00CE0A5A /* _____Tests.swift */,
+				EFB204B51DC0502F00CE0A5A /* Info.plist */,
+			);
+			path = "加法计算器Tests";
+			sourceTree = "<group>";
+		};
+		EFB204BD1DC0502F00CE0A5A /* 加法计算器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB204BE1DC0502F00CE0A5A /* _____UITests.swift */,
+				EFB204C01DC0502F00CE0A5A /* Info.plist */,
+			);
+			path = "加法计算器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB2049A1DC0502E00CE0A5A /* 加法计算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB204C31DC0502F00CE0A5A /* Build configuration list for PBXNativeTarget "加法计算器" */;
+			buildPhases = (
+				EFB204971DC0502E00CE0A5A /* Sources */,
+				EFB204981DC0502E00CE0A5A /* Frameworks */,
+				EFB204991DC0502E00CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加法计算器";
+			productName = "加法计算器";
+			productReference = EFB2049B1DC0502E00CE0A5A /* 加法计算器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB204AE1DC0502E00CE0A5A /* 加法计算器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB204C61DC0502F00CE0A5A /* Build configuration list for PBXNativeTarget "加法计算器Tests" */;
+			buildPhases = (
+				EFB204AB1DC0502E00CE0A5A /* Sources */,
+				EFB204AC1DC0502E00CE0A5A /* Frameworks */,
+				EFB204AD1DC0502E00CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB204B11DC0502E00CE0A5A /* PBXTargetDependency */,
+			);
+			name = "加法计算器Tests";
+			productName = "加法计算器Tests";
+			productReference = EFB204AF1DC0502E00CE0A5A /* 加法计算器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB204B91DC0502F00CE0A5A /* 加法计算器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB204C91DC0502F00CE0A5A /* Build configuration list for PBXNativeTarget "加法计算器UITests" */;
+			buildPhases = (
+				EFB204B61DC0502F00CE0A5A /* Sources */,
+				EFB204B71DC0502F00CE0A5A /* Frameworks */,
+				EFB204B81DC0502F00CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB204BC1DC0502F00CE0A5A /* PBXTargetDependency */,
+			);
+			name = "加法计算器UITests";
+			productName = "加法计算器UITests";
+			productReference = EFB204BA1DC0502F00CE0A5A /* 加法计算器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB204931DC0502E00CE0A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = myzj2004;
+				TargetAttributes = {
+					EFB2049A1DC0502E00CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+					};
+					EFB204AE1DC0502E00CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB2049A1DC0502E00CE0A5A;
+					};
+					EFB204B91DC0502F00CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB2049A1DC0502E00CE0A5A;
+					};
+				};
+			};
+			buildConfigurationList = EFB204961DC0502E00CE0A5A /* Build configuration list for PBXProject "加法计算器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB204921DC0502E00CE0A5A;
+			productRefGroup = EFB2049C1DC0502E00CE0A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB2049A1DC0502E00CE0A5A /* 加法计算器 */,
+				EFB204AE1DC0502E00CE0A5A /* 加法计算器Tests */,
+				EFB204B91DC0502F00CE0A5A /* 加法计算器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB204991DC0502E00CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB204A91DC0502E00CE0A5A /* LaunchScreen.storyboard in Resources */,
+				EFB204A61DC0502E00CE0A5A /* Assets.xcassets in Resources */,
+				EFB204A41DC0502E00CE0A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB204AD1DC0502E00CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB204B81DC0502F00CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB204971DC0502E00CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB204A11DC0502E00CE0A5A /* ViewController.swift in Sources */,
+				EFB2049F1DC0502E00CE0A5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB204AB1DC0502E00CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB204B41DC0502F00CE0A5A /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB204B61DC0502F00CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB204BF1DC0502F00CE0A5A /* _____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB204B11DC0502E00CE0A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB2049A1DC0502E00CE0A5A /* 加法计算器 */;
+			targetProxy = EFB204B01DC0502E00CE0A5A /* PBXContainerItemProxy */;
+		};
+		EFB204BC1DC0502F00CE0A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB2049A1DC0502E00CE0A5A /* 加法计算器 */;
+			targetProxy = EFB204BB1DC0502F00CE0A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB204A21DC0502E00CE0A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB204A31DC0502E00CE0A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB204A71DC0502E00CE0A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB204A81DC0502E00CE0A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB204C11DC0502F00CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB204C21DC0502F00CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB204C41DC0502F00CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加法计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFB204C51DC0502F00CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加法计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFB204C71DC0502F00CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加法计算器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加法计算器.app/加法计算器";
+			};
+			name = Debug;
+		};
+		EFB204C81DC0502F00CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加法计算器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加法计算器.app/加法计算器";
+			};
+			name = Release;
+		};
+		EFB204CA1DC0502F00CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加法计算器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "加法计算器";
+			};
+			name = Debug;
+		};
+		EFB204CB1DC0502F00CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加法计算器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "加法计算器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB204961DC0502E00CE0A5A /* Build configuration list for PBXProject "加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB204C11DC0502F00CE0A5A /* Debug */,
+				EFB204C21DC0502F00CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB204C31DC0502F00CE0A5A /* Build configuration list for PBXNativeTarget "加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB204C41DC0502F00CE0A5A /* Debug */,
+				EFB204C51DC0502F00CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB204C61DC0502F00CE0A5A /* Build configuration list for PBXNativeTarget "加法计算器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB204C71DC0502F00CE0A5A /* Debug */,
+				EFB204C81DC0502F00CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB204C91DC0502F00CE0A5A /* Build configuration list for PBXNativeTarget "加法计算器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB204CA1DC0502F00CE0A5A /* Debug */,
+				EFB204CB1DC0502F00CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB204931DC0502E00CE0A5A /* Project object */;
+}
