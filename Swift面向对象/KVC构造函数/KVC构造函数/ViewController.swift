@@ -13,8 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let p = Person(dict: ["name" : "老张","age" : 22,"title":"boos"])
-        print(p.name,p.age)
+//        let p = Person(dict: ["name" : "老张","age" : 22,"title":"boos"])
+        let p = Student(dict: ["name" : "老张","age" : 22,"title":"boos","no":"hahahah","xxxx":"sdfd"])
+        print(p.name,p.age,p.title,p.no)
     }
 
 
