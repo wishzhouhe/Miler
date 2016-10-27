@@ -10,21 +10,26 @@ import UIKit
 
 class DetailViewController: UITableViewController {
 
+    
+    var person: Person?
+    @IBOutlet weak var textName: UITextField!
+    @IBOutlet weak var textPhone: UITextField!
+    @IBOutlet weak var textTitle: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        if person != nil {
+            textName.text = person?.name
+            textPhone.text = person?.phone
+            textTitle.text = person?.title
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func savePerson(_ sender: AnyObject) {
+        
     }
-
     
 
 }

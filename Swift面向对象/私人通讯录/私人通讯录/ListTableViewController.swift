@@ -45,5 +45,36 @@ class ListTableViewController: UITableViewController {
             })
         }
     }
+    // MARK: - UITableViewDataSource 
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return personList.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellID", for: indexPath)
+        cell.textLabel?.text = personList[indexPath.row].name
+        cell.detailTextLabel?.text = personList[indexPath.row].phone
+        return cell
+    }
+    // MARK: - 控制器跳转方法
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //类型转换//as ! / as? 根绝前面的返回值来决定的
+        let vc = segue.destination as! DetailViewController
+        
+        //这只选中的person indePatch
+        if let IndexPath = sender as? IndexPath {
+            vc.person = personList[IndexPath.row]
+        }
+    }
+    
+    // MARK: - UITabelViewDelegate Methods
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        //实现segue
+        performSegue(withIdentifier: "ListTwo", sender: indexPath)
+    }
+    
+    
 
 }

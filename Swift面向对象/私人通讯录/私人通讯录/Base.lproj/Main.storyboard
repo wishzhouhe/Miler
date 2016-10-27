@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="4UY-Vy-80I" detailTextLabel="iFR-HC-PW3" rowHeight="56" style="IBUITableViewCellStyleSubtitle" id="Q4Q-S1-Gka">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cellID" textLabel="4UY-Vy-80I" detailTextLabel="iFR-HC-PW3" rowHeight="56" style="IBUITableViewCellStyleSubtitle" id="Q4Q-S1-Gka">
                                 <rect key="frame" x="0.0" y="92" width="375" height="56"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q4Q-S1-Gka" id="fTC-mB-HPU">
@@ -53,7 +53,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="GAE-wD-ref" kind="show" id="Y6X-Zw-djj"/>
+                        <segue destination="GAE-wD-ref" kind="show" identifier="ListTwo" id="Y6X-Zw-djj"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vz8-LJ-9Of" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -63,7 +63,7 @@
         <!--明细-->
         <scene sceneID="fGx-56-Crj">
             <objects>
-                <tableViewController id="GAE-wD-ref" customClass="DetailViewController" customModule="私人通讯录" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ListTwo" id="GAE-wD-ref" customClass="DetailViewController" customModule="私人通讯录" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="rbX-s7-6r7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,8 +140,17 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="明细" id="SGf-0N-CQl">
-                        <barButtonItem key="rightBarButtonItem" title="保存" id="4Bp-Qq-t1q"/>
+                        <barButtonItem key="rightBarButtonItem" title="保存" id="4Bp-Qq-t1q">
+                            <connections>
+                                <action selector="savePerson:" destination="GAE-wD-ref" id="rpJ-LW-kJO"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="textName" destination="gJb-ue-Xqn" id="h9r-2D-N3M"/>
+                        <outlet property="textPhone" destination="elg-W3-3dK" id="9pW-T3-d8R"/>
+                        <outlet property="textTitle" destination="rvE-aa-8F1" id="FMF-PZ-xM4"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="axR-rW-F9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,6 +174,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jJi-ee-09S"/>
+        <segue reference="Y6X-Zw-djj"/>
     </inferredMetricsTieBreakers>
 </document>
