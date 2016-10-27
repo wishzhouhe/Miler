@@ -64,6 +64,9 @@ class ListTableViewController: UITableViewController {
         //这只选中的person indePatch
         if let IndexPath = sender as? IndexPath {
             vc.person = personList[IndexPath.row]
+            vc.completion = {
+                self.tableView.reloadRows(at: [IndexPath], with: .automatic)
+            }
         }
     }
     

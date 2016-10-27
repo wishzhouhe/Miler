@@ -17,6 +17,9 @@ class DetailViewController: UITableViewController {
     @IBOutlet weak var textTitle: UITextField!
     
     
+    var completion: (()->())?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if person != nil {
@@ -28,7 +31,19 @@ class DetailViewController: UITableViewController {
 
     
     @IBAction func savePerson(_ sender: AnyObject) {
+        //用UI 更新peron内容
+        person?.name = textName.text
+        person?.phone = textPhone.text
+        person?.title = textTitle.text
         
+        //执行闭包毁掉
+        //oc中执行block前都必须判断是否有值 否则容易崩溃
+        //!是xcode提示解决办法
+        //?可选解包 如果为空就不执行闭包
+        completion?()
+        
+        //返回上一页
+        _ = navigationController?.popViewController(animated: true)
     }
     
 
