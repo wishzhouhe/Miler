@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB205971DC0B4C900CE0A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB205961DC0B4C900CE0A5A /* AppDelegate.swift */; };
+		EFB205991DC0B4C900CE0A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB205981DC0B4C900CE0A5A /* ViewController.swift */; };
+		EFB2059C1DC0B4C900CE0A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB2059A1DC0B4C900CE0A5A /* Main.storyboard */; };
+		EFB2059E1DC0B4C900CE0A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB2059D1DC0B4C900CE0A5A /* Assets.xcassets */; };
+		EFB205A11DC0B4C900CE0A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB2059F1DC0B4C900CE0A5A /* LaunchScreen.storyboard */; };
+		EFB205AC1DC0B4C900CE0A5A /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB205AB1DC0B4C900CE0A5A /* ____Tests.swift */; };
+		EFB205B71DC0B4C900CE0A5A /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB205B61DC0B4C900CE0A5A /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB205A81DC0B4C900CE0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB2058B1DC0B4C900CE0A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB205921DC0B4C900CE0A5A;
+			remoteInfo = "加载百度";
+		};
+		EFB205B31DC0B4C900CE0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB2058B1DC0B4C900CE0A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB205921DC0B4C900CE0A5A;
+			remoteInfo = "加载百度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB205931DC0B4C900CE0A5A /* 加载百度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加载百度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB205961DC0B4C900CE0A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFB205981DC0B4C900CE0A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB2059B1DC0B4C900CE0A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB2059D1DC0B4C900CE0A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB205A01DC0B4C900CE0A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB205A21DC0B4C900CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB205A71DC0B4C900CE0A5A /* 加载百度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加载百度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB205AB1DC0B4C900CE0A5A /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		EFB205AD1DC0B4C900CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB205B21DC0B4C900CE0A5A /* 加载百度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加载百度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB205B61DC0B4C900CE0A5A /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		EFB205B81DC0B4C900CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB205901DC0B4C900CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB205A41DC0B4C900CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB205AF1DC0B4C900CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB2058A1DC0B4C900CE0A5A = {
+			isa = PBXGroup;
+			children = (
+				EFB205951DC0B4C900CE0A5A /* 加载百度 */,
+				EFB205AA1DC0B4C900CE0A5A /* 加载百度Tests */,
+				EFB205B51DC0B4C900CE0A5A /* 加载百度UITests */,
+				EFB205941DC0B4C900CE0A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB205941DC0B4C900CE0A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB205931DC0B4C900CE0A5A /* 加载百度.app */,
+				EFB205A71DC0B4C900CE0A5A /* 加载百度Tests.xctest */,
+				EFB205B21DC0B4C900CE0A5A /* 加载百度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB205951DC0B4C900CE0A5A /* 加载百度 */ = {
+			isa = PBXGroup;
+			children = (
+				EFB205961DC0B4C900CE0A5A /* AppDelegate.swift */,
+				EFB205981DC0B4C900CE0A5A /* ViewController.swift */,
+				EFB2059A1DC0B4C900CE0A5A /* Main.storyboard */,
+				EFB2059D1DC0B4C900CE0A5A /* Assets.xcassets */,
+				EFB2059F1DC0B4C900CE0A5A /* LaunchScreen.storyboard */,
+				EFB205A21DC0B4C900CE0A5A /* Info.plist */,
+			);
+			path = "加载百度";
+			sourceTree = "<group>";
+		};
+		EFB205AA1DC0B4C900CE0A5A /* 加载百度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB205AB1DC0B4C900CE0A5A /* ____Tests.swift */,
+				EFB205AD1DC0B4C900CE0A5A /* Info.plist */,
+			);
+			path = "加载百度Tests";
+			sourceTree = "<group>";
+		};
+		EFB205B51DC0B4C900CE0A5A /* 加载百度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB205B61DC0B4C900CE0A5A /* ____UITests.swift */,
+				EFB205B81DC0B4C900CE0A5A /* Info.plist */,
+			);
+			path = "加载百度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB205921DC0B4C900CE0A5A /* 加载百度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB205BB1DC0B4C900CE0A5A /* Build configuration list for PBXNativeTarget "加载百度" */;
+			buildPhases = (
+				EFB2058F1DC0B4C900CE0A5A /* Sources */,
+				EFB205901DC0B4C900CE0A5A /* Frameworks */,
+				EFB205911DC0B4C900CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加载百度";
+			productName = "加载百度";
+			productReference = EFB205931DC0B4C900CE0A5A /* 加载百度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB205A61DC0B4C900CE0A5A /* 加载百度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB205BE1DC0B4C900CE0A5A /* Build configuration list for PBXNativeTarget "加载百度Tests" */;
+			buildPhases = (
+				EFB205A31DC0B4C900CE0A5A /* Sources */,
+				EFB205A41DC0B4C900CE0A5A /* Frameworks */,
+				EFB205A51DC0B4C900CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB205A91DC0B4C900CE0A5A /* PBXTargetDependency */,
+			);
+			name = "加载百度Tests";
+			productName = "加载百度Tests";
+			productReference = EFB205A71DC0B4C900CE0A5A /* 加载百度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB205B11DC0B4C900CE0A5A /* 加载百度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB205C11DC0B4C900CE0A5A /* Build configuration list for PBXNativeTarget "加载百度UITests" */;
+			buildPhases = (
+				EFB205AE1DC0B4C900CE0A5A /* Sources */,
+				EFB205AF1DC0B4C900CE0A5A /* Frameworks */,
+				EFB205B01DC0B4C900CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB205B41DC0B4C900CE0A5A /* PBXTargetDependency */,
+			);
+			name = "加载百度UITests";
+			productName = "加载百度UITests";
+			productReference = EFB205B21DC0B4C900CE0A5A /* 加载百度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB2058B1DC0B4C900CE0A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = myzj2004;
+				TargetAttributes = {
+					EFB205921DC0B4C900CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+					};
+					EFB205A61DC0B4C900CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB205921DC0B4C900CE0A5A;
+					};
+					EFB205B11DC0B4C900CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB205921DC0B4C900CE0A5A;
+					};
+				};
+			};
+			buildConfigurationList = EFB2058E1DC0B4C900CE0A5A /* Build configuration list for PBXProject "加载百度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB2058A1DC0B4C900CE0A5A;
+			productRefGroup = EFB205941DC0B4C900CE0A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB205921DC0B4C900CE0A5A /* 加载百度 */,
+				EFB205A61DC0B4C900CE0A5A /* 加载百度Tests */,
+				EFB205B11DC0B4C900CE0A5A /* 加载百度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB205911DC0B4C900CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB205A11DC0B4C900CE0A5A /* LaunchScreen.storyboard in Resources */,
+				EFB2059E1DC0B4C900CE0A5A /* Assets.xcassets in Resources */,
+				EFB2059C1DC0B4C900CE0A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB205A51DC0B4C900CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB205B01DC0B4C900CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB2058F1DC0B4C900CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB205991DC0B4C900CE0A5A /* ViewController.swift in Sources */,
+				EFB205971DC0B4C900CE0A5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB205A31DC0B4C900CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB205AC1DC0B4C900CE0A5A /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB205AE1DC0B4C900CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB205B71DC0B4C900CE0A5A /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB205A91DC0B4C900CE0A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB205921DC0B4C900CE0A5A /* 加载百度 */;
+			targetProxy = EFB205A81DC0B4C900CE0A5A /* PBXContainerItemProxy */;
+		};
+		EFB205B41DC0B4C900CE0A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB205921DC0B4C900CE0A5A /* 加载百度 */;
+			targetProxy = EFB205B31DC0B4C900CE0A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB2059A1DC0B4C900CE0A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB2059B1DC0B4C900CE0A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB2059F1DC0B4C900CE0A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB205A01DC0B4C900CE0A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB205B91DC0B4C900CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB205BA1DC0B4C900CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB205BC1DC0B4C900CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加载百度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFB205BD1DC0B4C900CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加载百度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFB205BF1DC0B4C900CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加载百度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加载百度.app/加载百度";
+			};
+			name = Debug;
+		};
+		EFB205C01DC0B4C900CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加载百度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加载百度.app/加载百度";
+			};
+			name = Release;
+		};
+		EFB205C21DC0B4C900CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加载百度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "加载百度";
+			};
+			name = Debug;
+		};
+		EFB205C31DC0B4C900CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "加载百度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "加载百度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB2058E1DC0B4C900CE0A5A /* Build configuration list for PBXProject "加载百度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB205B91DC0B4C900CE0A5A /* Debug */,
+				EFB205BA1DC0B4C900CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB205BB1DC0B4C900CE0A5A /* Build configuration list for PBXNativeTarget "加载百度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB205BC1DC0B4C900CE0A5A /* Debug */,
+				EFB205BD1DC0B4C900CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB205BE1DC0B4C900CE0A5A /* Build configuration list for PBXNativeTarget "加载百度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB205BF1DC0B4C900CE0A5A /* Debug */,
+				EFB205C01DC0B4C900CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB205C11DC0B4C900CE0A5A /* Build configuration list for PBXNativeTarget "加载百度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB205C21DC0B4C900CE0A5A /* Debug */,
+				EFB205C31DC0B4C900CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB2058B1DC0B4C900CE0A5A /* Project object */;
+}
