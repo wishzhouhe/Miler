@@ -15,6 +15,7 @@
 		EFB2062D1DC1AC2500CE0A5A /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2062C1DC1AC2500CE0A5A /* _____UITests.swift */; };
 		EFB2063B1DC1CF9500CE0A5A /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2063A1DC1CF9500CE0A5A /* ListTableViewController.swift */; };
 		EFB2063D1DC1CFB000CE0A5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2063C1DC1CFB000CE0A5A /* DetailViewController.swift */; };
+		EFB2063F1DC1D15400CE0A5A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2063E1DC1D15400CE0A5A /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EFB2062E1DC1AC2500CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFB2063A1DC1CF9500CE0A5A /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		EFB2063C1DC1CFB000CE0A5A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EFB2063E1DC1D15400CE0A5A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				EFB206181DC1AC2500CE0A5A /* Info.plist */,
 				EFB2063A1DC1CF9500CE0A5A /* ListTableViewController.swift */,
 				EFB2063C1DC1CFB000CE0A5A /* DetailViewController.swift */,
+				EFB2063E1DC1D15400CE0A5A /* Person.swift */,
 			);
 			path = "私人通讯录";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				EFB2063D1DC1CFB000CE0A5A /* DetailViewController.swift in Sources */,
 				EFB2060D1DC1AC2500CE0A5A /* AppDelegate.swift in Sources */,
+				EFB2063F1DC1D15400CE0A5A /* Person.swift in Sources */,
 				EFB2063B1DC1CF9500CE0A5A /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
