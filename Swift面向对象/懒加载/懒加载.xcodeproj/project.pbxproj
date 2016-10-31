@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB2064D1DC727A600CE0A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2064C1DC727A600CE0A5A /* AppDelegate.swift */; };
+		EFB2064F1DC727A600CE0A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2064E1DC727A600CE0A5A /* ViewController.swift */; };
+		EFB206521DC727A600CE0A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB206501DC727A600CE0A5A /* Main.storyboard */; };
+		EFB206541DC727A600CE0A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB206531DC727A600CE0A5A /* Assets.xcassets */; };
+		EFB206571DC727A600CE0A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB206551DC727A600CE0A5A /* LaunchScreen.storyboard */; };
+		EFB206621DC727A600CE0A5A /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB206611DC727A600CE0A5A /* ___Tests.swift */; };
+		EFB2066D1DC727A600CE0A5A /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2066C1DC727A600CE0A5A /* ___UITests.swift */; };
+		EFB2067B1DC727C800CE0A5A /* DemoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB2067A1DC727C800CE0A5A /* DemoLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB2065E1DC727A600CE0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB206411DC727A600CE0A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB206481DC727A600CE0A5A;
+			remoteInfo = "懒加载";
+		};
+		EFB206691DC727A600CE0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB206411DC727A600CE0A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB206481DC727A600CE0A5A;
+			remoteInfo = "懒加载";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB206491DC727A600CE0A5A /* 懒加载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "懒加载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB2064C1DC727A600CE0A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFB2064E1DC727A600CE0A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB206511DC727A600CE0A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB206531DC727A600CE0A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB206561DC727A600CE0A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB206581DC727A600CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB2065D1DC727A600CE0A5A /* 懒加载Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "懒加载Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB206611DC727A600CE0A5A /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		EFB206631DC727A600CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB206681DC727A600CE0A5A /* 懒加载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "懒加载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB2066C1DC727A600CE0A5A /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		EFB2066E1DC727A600CE0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB2067A1DC727C800CE0A5A /* DemoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB206461DC727A600CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB2065A1DC727A600CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB206651DC727A600CE0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB206401DC727A500CE0A5A = {
+			isa = PBXGroup;
+			children = (
+				EFB2064B1DC727A600CE0A5A /* 懒加载 */,
+				EFB206601DC727A600CE0A5A /* 懒加载Tests */,
+				EFB2066B1DC727A600CE0A5A /* 懒加载UITests */,
+				EFB2064A1DC727A600CE0A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB2064A1DC727A600CE0A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB206491DC727A600CE0A5A /* 懒加载.app */,
+				EFB2065D1DC727A600CE0A5A /* 懒加载Tests.xctest */,
+				EFB206681DC727A600CE0A5A /* 懒加载UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB2064B1DC727A600CE0A5A /* 懒加载 */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2064C1DC727A600CE0A5A /* AppDelegate.swift */,
+				EFB2064E1DC727A600CE0A5A /* ViewController.swift */,
+				EFB206501DC727A600CE0A5A /* Main.storyboard */,
+				EFB206531DC727A600CE0A5A /* Assets.xcassets */,
+				EFB206551DC727A600CE0A5A /* LaunchScreen.storyboard */,
+				EFB206581DC727A600CE0A5A /* Info.plist */,
+				EFB2067A1DC727C800CE0A5A /* DemoLabel.swift */,
+			);
+			path = "懒加载";
+			sourceTree = "<group>";
+		};
+		EFB206601DC727A600CE0A5A /* 懒加载Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB206611DC727A600CE0A5A /* ___Tests.swift */,
+				EFB206631DC727A600CE0A5A /* Info.plist */,
+			);
+			path = "懒加载Tests";
+			sourceTree = "<group>";
+		};
+		EFB2066B1DC727A600CE0A5A /* 懒加载UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2066C1DC727A600CE0A5A /* ___UITests.swift */,
+				EFB2066E1DC727A600CE0A5A /* Info.plist */,
+			);
+			path = "懒加载UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB206481DC727A600CE0A5A /* 懒加载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB206711DC727A600CE0A5A /* Build configuration list for PBXNativeTarget "懒加载" */;
+			buildPhases = (
+				EFB206451DC727A600CE0A5A /* Sources */,
+				EFB206461DC727A600CE0A5A /* Frameworks */,
+				EFB206471DC727A600CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "懒加载";
+			productName = "懒加载";
+			productReference = EFB206491DC727A600CE0A5A /* 懒加载.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB2065C1DC727A600CE0A5A /* 懒加载Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB206741DC727A600CE0A5A /* Build configuration list for PBXNativeTarget "懒加载Tests" */;
+			buildPhases = (
+				EFB206591DC727A600CE0A5A /* Sources */,
+				EFB2065A1DC727A600CE0A5A /* Frameworks */,
+				EFB2065B1DC727A600CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB2065F1DC727A600CE0A5A /* PBXTargetDependency */,
+			);
+			name = "懒加载Tests";
+			productName = "懒加载Tests";
+			productReference = EFB2065D1DC727A600CE0A5A /* 懒加载Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB206671DC727A600CE0A5A /* 懒加载UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB206771DC727A600CE0A5A /* Build configuration list for PBXNativeTarget "懒加载UITests" */;
+			buildPhases = (
+				EFB206641DC727A600CE0A5A /* Sources */,
+				EFB206651DC727A600CE0A5A /* Frameworks */,
+				EFB206661DC727A600CE0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB2066A1DC727A600CE0A5A /* PBXTargetDependency */,
+			);
+			name = "懒加载UITests";
+			productName = "懒加载UITests";
+			productReference = EFB206681DC727A600CE0A5A /* 懒加载UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB206411DC727A600CE0A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = myzj2004;
+				TargetAttributes = {
+					EFB206481DC727A600CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+					};
+					EFB2065C1DC727A600CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB206481DC727A600CE0A5A;
+					};
+					EFB206671DC727A600CE0A5A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3V6U2AD8V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFB206481DC727A600CE0A5A;
+					};
+				};
+			};
+			buildConfigurationList = EFB206441DC727A600CE0A5A /* Build configuration list for PBXProject "懒加载" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB206401DC727A500CE0A5A;
+			productRefGroup = EFB2064A1DC727A600CE0A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB206481DC727A600CE0A5A /* 懒加载 */,
+				EFB2065C1DC727A600CE0A5A /* 懒加载Tests */,
+				EFB206671DC727A600CE0A5A /* 懒加载UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB206471DC727A600CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB206571DC727A600CE0A5A /* LaunchScreen.storyboard in Resources */,
+				EFB206541DC727A600CE0A5A /* Assets.xcassets in Resources */,
+				EFB206521DC727A600CE0A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB2065B1DC727A600CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB206661DC727A600CE0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB206451DC727A600CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB2064F1DC727A600CE0A5A /* ViewController.swift in Sources */,
+				EFB2064D1DC727A600CE0A5A /* AppDelegate.swift in Sources */,
+				EFB2067B1DC727C800CE0A5A /* DemoLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB206591DC727A600CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB206621DC727A600CE0A5A /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB206641DC727A600CE0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB2066D1DC727A600CE0A5A /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB2065F1DC727A600CE0A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB206481DC727A600CE0A5A /* 懒加载 */;
+			targetProxy = EFB2065E1DC727A600CE0A5A /* PBXContainerItemProxy */;
+		};
+		EFB2066A1DC727A600CE0A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB206481DC727A600CE0A5A /* 懒加载 */;
+			targetProxy = EFB206691DC727A600CE0A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB206501DC727A600CE0A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB206511DC727A600CE0A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB206551DC727A600CE0A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB206561DC727A600CE0A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB2066F1DC727A600CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB206701DC727A600CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB206721DC727A600CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "懒加载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFB206731DC727A600CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "懒加载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFB206751DC727A600CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "懒加载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/懒加载.app/懒加载";
+			};
+			name = Debug;
+		};
+		EFB206761DC727A600CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "懒加载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/懒加载.app/懒加载";
+			};
+			name = Release;
+		};
+		EFB206781DC727A600CE0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "懒加载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "懒加载";
+			};
+			name = Debug;
+		};
+		EFB206791DC727A600CE0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3V6U2AD8V4;
+				INFOPLIST_FILE = "懒加载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouhe.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "懒加载";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB206441DC727A600CE0A5A /* Build configuration list for PBXProject "懒加载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB2066F1DC727A600CE0A5A /* Debug */,
+				EFB206701DC727A600CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB206711DC727A600CE0A5A /* Build configuration list for PBXNativeTarget "懒加载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB206721DC727A600CE0A5A /* Debug */,
+				EFB206731DC727A600CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB206741DC727A600CE0A5A /* Build configuration list for PBXNativeTarget "懒加载Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB206751DC727A600CE0A5A /* Debug */,
+				EFB206761DC727A600CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFB206771DC727A600CE0A5A /* Build configuration list for PBXNativeTarget "懒加载UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB206781DC727A600CE0A5A /* Debug */,
+				EFB206791DC727A600CE0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB206411DC727A600CE0A5A /* Project object */;
+}

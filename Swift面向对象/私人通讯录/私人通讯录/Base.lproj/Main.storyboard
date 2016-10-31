@@ -48,6 +48,7 @@
                     <navigationItem key="navigationItem" title="联系人列表" id="ilK-sW-yw9">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="hq1-MP-GTo">
                             <connections>
+                                <action selector="addPerson:" destination="xYW-jL-6dj" id="J4N-2T-zkn"/>
                                 <segue destination="GAE-wD-ref" kind="show" id="jJi-ee-09S"/>
                             </connections>
                         </barButtonItem>

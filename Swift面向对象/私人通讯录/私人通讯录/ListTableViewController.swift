@@ -27,7 +27,7 @@ class ListTableViewController: UITableViewController {
     /// 模拟异步 ,利用闭包毁掉
     
     
-    private func loadData(completion:@escaping ([Person])->()) -> () {
+    private func loadData(completion:@escaping ([Person])->()){
         DispatchQueue.global().async {
             print("加载")
             Thread.sleep(forTimeInterval: 1)
@@ -67,6 +67,18 @@ class ListTableViewController: UITableViewController {
             vc.completion = {
                 self.tableView.reloadRows(at: [IndexPath], with: .automatic)
             }
+        } else {
+            //新建
+            vc.completion = {
+                //1 获取明细控制器的person
+                guard let p = vc.person else {
+                    return
+                }
+                //2 插入到数组的顶部
+                self.personList.insert(p, at: 0)
+                //3 刷新表
+                self.tableView.reloadData()
+            }
         }
     }
     
@@ -77,6 +89,12 @@ class ListTableViewController: UITableViewController {
         //实现segue
         performSegue(withIdentifier: "ListTwo", sender: indexPath)
     }
+    
+    @IBAction func addPerson(_ sender: AnyObject) {
+        //执行segue 跳转界面
+        performSegue(withIdentifier: "ListTwo", sender: nil)
+    }
+    
     
     
 
